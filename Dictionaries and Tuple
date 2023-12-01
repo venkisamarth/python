@@ -1,0 +1,12 @@
+#Dictionaries:
+person={
+    "name":"john",
+    "age": 30
+    "occupation":"Engineer"
+
+}
+
+a,b,c=10,20,30
+x,y,z=None,None,None
+a,b,c = x or a,  y or b,z or c
+print(a,b,c)
